@@ -2,7 +2,7 @@
 
 A Machine Learning Project for Forecasting EUR/USD Forex Prices
 
-## 🧩 Project Overview
+## Project Overview
 
 This project aims to predict the Euro to US Dollar (EUR/USD) exchange rate using historical daily data. We build a complete ML pipeline, perform exploratory data analysis, handle missing values & outliers, engineer features, train multiple models, and evaluate their performance.
 
@@ -22,7 +22,7 @@ The final goal is to select the best-performing model and prepare the project fo
 
 ---
 
-## 📂 Dataset Description
+## Dataset Description
 
 The dataset contains daily EUR/USD exchange rate values:
 
@@ -40,7 +40,7 @@ You must clean missing values and convert `Change %` from string to numeric.
 
 ---
 
-## 🔍 Exploratory Data Analysis (EDA)
+## Exploratory Data Analysis (EDA)
 
 The notebook performs the following analyses:
 
@@ -61,7 +61,7 @@ Display heatmap to find relationships between price, volatility, and engineered 
 
 ---
 
-## 🛠 Feature Engineering
+## Feature Engineering
 
 To improve model prediction capability, the following features are created:
 
@@ -74,7 +74,7 @@ These features allow machine-learning models to understand past behavior and pat
 
 ---
 
-## 🤖 Machine Learning Models
+## Machine Learning Models
 
 We train and evaluate three ML models:
 
@@ -89,7 +89,7 @@ Boosting-based algorithm, strong for tabular data.
 
 ---
 
-## 📊 Model Performance
+## Model Performance
 
 | Model | RMSE (↓) | R² (↑) |
 |-------|----------|--------|
@@ -97,6 +97,6 @@ Boosting-based algorithm, strong for tabular data.
 | **XGBoost** | 0.007037 | 0.998629 |
 | **Linear Regression** | 0.007880 | 0.998282 |
 
-### 🏆 Best Model: Random Forest Regressor
+### Best Model: Random Forest Regressor
 
 It achieved the lowest RMSE and highest R², making it the most reliable model for EUR/USD forecasting.
